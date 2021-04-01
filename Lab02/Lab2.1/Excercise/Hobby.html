@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style type="text/css" media="all">
+        body {
+            background-color: #FFCCFF;
+        }
+
+        label {
+            font-size: 20px;
+            color: maroon;
+            margin-left: 10px;
+        }
+
+        input.text {
+            position: fixed;
+            left: 180px;
+        }
+    </style>
+    <title>Input Information</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <form action="Hobby.php" method="POST">
+        <label>Enter your name</label>
+        <input type="text" maxlength="20" name="name" class="text">
+        <br><br>
+        <label>Date of birth</label>
+        <input type="text" maxlength="20" name="dob" placeholder="DD/MM/YY" class="text">
+        <br><br>
+        <label>Address</label>
+        <input type="text" maxlength="20" name="address" class="text">
+        <br><br>
+        <label>School</label>
+        <input type="text" maxlength="20" name="school" class="text">
+        <br><br>
+        <label>Class</label>
+        <input type="text" maxlength="20" name="class" class="text">
+        <br><br>
+        <label>Hobbies</label>
+        <ul style="list-style-type: none;">
+            <li>
+                <input type="checkbox" id="hobby1" name="sport" value="Playing sports">
+                <label for="hobby1">Playing sports</label>
+            </li>
+            <li>
+                <input type="checkbox" id="hobby2" name="music" value="Listening to musics">
+                <label for="hobby2">Listening to musics</label>
+            </li>
+            <li>
+                <input type="checkbox" id="hobby3" name="film" value="Watching Films">
+                <label for="hobby3">Watching Films</label>
+            </li>
+            <li>
+                <input type="checkbox" id="hobby4" name="hangout" value="Hanging out">
+                <label for="hobby4">Hanging out</label>
+            </li>
+            <li>
+                <input type="checkbox" id="hobby5" name="work" value="Working">
+                <label for="hobby5">Working</label>
+            </li>
+            <li>
+                <input type="checkbox" id="hobby6" name="other" value="Others">
+                <label for="hobby6">Others</label>
+                <p>Others <input type="text" maxlength="20" name="otherHobby"></p>
+            </li>
+        </ul>
+        <input align="right" type="SUBMIT" value="Submit">
+        <input align="left" type="RESET" value="Reset">
+    </form>
+</body>
+
+</html>
