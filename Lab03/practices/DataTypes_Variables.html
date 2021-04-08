@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<!–- CS443 js01.html 16.08.06 -->
+<head>
+    <title>Data types and Variables</title>
+</head>
+<body>
+    <div style="text-align:center">
+        <script type="text/javascript">
+            // Có 3 kiểu dữ liệu
+           /* String */
+           /* Number */
+           /* Boolean */
+            var x, y;
+            x = 1024;
+            y = x;
+            x = "foobar";
+
+            document.write("<p>x = " + y + "</p>");
+            document.write("<p>x = " + x + "</p>");
+
+            var distanceToSun = 93.3e6 * 5280 * 12;
+            var thickness = .002;
+            var foldCount = 0;
+            document.write("<p>" + thickness + "</p>");
+            document.write("thickness is " + thickness + "<br> <br>");
+            while(thickness < distanceToSun) {
+                thickness *= 2;
+                foldCount++;
+            }
+            document.write("Number of folds " + foldCount + "<br>");
+
+            document.write(Math.ceil(0.49))
+            
+        </script>
+    </div>
+    <p>Here is some static text as well.</p>
+</body>
+</html>
