@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: azure;
+    font-size: 200%;
+}
+
+p {
+    margin: 0.25in;
+    border: 0.25in solid black;
+    padding: 0.25in;
+    background-image: URL(images/bond-paper.PNG);
+    font-size: 200%;
+}
+
+body {
+    background: URL(images/brick.jpg);
+}
+
+.banner {
+    background: URL(images/banner.PNG);
+    font-size: 50pt;
+    font-family: Arial Rounded MT Bold;
+}
+
+li {
+    font-size: 120%;
+    color: azure;
+}
